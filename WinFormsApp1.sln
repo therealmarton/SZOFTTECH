@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsApp1", "WinFormsApp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "szorzotabla", "szorzotabla\szorzotabla.csproj", "{1BD105F8-0E46-4D07-9708-B4C2921FA35B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsApp2", "WinFormsApp2\WinFormsApp2.csproj", "{F8D86278-08DB-4E48-AB17-331C248F498A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{1BD105F8-0E46-4D07-9708-B4C2921FA35B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1BD105F8-0E46-4D07-9708-B4C2921FA35B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1BD105F8-0E46-4D07-9708-B4C2921FA35B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8D86278-08DB-4E48-AB17-331C248F498A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8D86278-08DB-4E48-AB17-331C248F498A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8D86278-08DB-4E48-AB17-331C248F498A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8D86278-08DB-4E48-AB17-331C248F498A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
