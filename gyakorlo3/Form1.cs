@@ -30,6 +30,8 @@ namespace gyakorlo3
                     uj.Left = ClientRectangle.Width / 2 - 50;
                     uj.Top = ClientRectangle.Height / 2 - 25;
                     Controls.Add(uj);
+
+
                 }
 
         }
