@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33815.320
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsApp1", "WinFormsApp1\WinFormsApp1.csproj", "{9C22D118-FA81-42E7-941E-74296CCE0E45}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WinFormsApp1", "WinFormsApp1\WinFormsApp1.csproj", "{9C22D118-FA81-42E7-941E-74296CCE0E45}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "szorzotabla", "szorzotabla\szorzotabla.csproj", "{1BD105F8-0E46-4D07-9708-B4C2921FA35B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "szorzotabla", "szorzotabla\szorzotabla.csproj", "{1BD105F8-0E46-4D07-9708-B4C2921FA35B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsApp2", "WinFormsApp2\WinFormsApp2.csproj", "{F8D86278-08DB-4E48-AB17-331C248F498A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WinFormsApp2", "WinFormsApp2\WinFormsApp2.csproj", "{F8D86278-08DB-4E48-AB17-331C248F498A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gyakorlo3", "gyakorlo3\gyakorlo3.csproj", "{215487FC-DAAC-416A-AA46-3F338271BA2C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{F8D86278-08DB-4E48-AB17-331C248F498A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F8D86278-08DB-4E48-AB17-331C248F498A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F8D86278-08DB-4E48-AB17-331C248F498A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{215487FC-DAAC-416A-AA46-3F338271BA2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{215487FC-DAAC-416A-AA46-3F338271BA2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{215487FC-DAAC-416A-AA46-3F338271BA2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{215487FC-DAAC-416A-AA46-3F338271BA2C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
