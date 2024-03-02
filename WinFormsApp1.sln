@@ -9,13 +9,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "szorzotabla", "szorzotabla\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WinFormsApp2", "WinFormsApp2\WinFormsApp2.csproj", "{F8D86278-08DB-4E48-AB17-331C248F498A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gyakorlo3", "gyakorlo3\gyakorlo3.csproj", "{215487FC-DAAC-416A-AA46-3F338271BA2C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "gyakorlo3", "gyakorlo3\gyakorlo3.csproj", "{215487FC-DAAC-416A-AA46-3F338271BA2C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2feladat", "2feladat\2feladat.csproj", "{AF78D4FD-E7F4-42C6-8E74-77294A939A6B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2feladat", "2feladat\2feladat.csproj", "{AF78D4FD-E7F4-42C6-8E74-77294A939A6B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3dikfeladat", "3dikfeladat\3dikfeladat.csproj", "{B8A8FF61-1224-4C6C-BE6B-A90766BAB4B4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3dikfeladat", "3dikfeladat\3dikfeladat.csproj", "{B8A8FF61-1224-4C6C-BE6B-A90766BAB4B4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gyakorlas_3", "gyakorlas_3\gyakorlas_3.csproj", "{20876FA8-4C3C-463C-8A1E-756E4D6558BB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "gyakorlas_3", "gyakorlas_3\gyakorlas_3.csproj", "{20876FA8-4C3C-463C-8A1E-756E4D6558BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gyakorlas_0302", "gyakorlas_0302\gyakorlas_0302.csproj", "{A2460716-336B-49A2-BAA1-9F5860300DD4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{20876FA8-4C3C-463C-8A1E-756E4D6558BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{20876FA8-4C3C-463C-8A1E-756E4D6558BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{20876FA8-4C3C-463C-8A1E-756E4D6558BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2460716-336B-49A2-BAA1-9F5860300DD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2460716-336B-49A2-BAA1-9F5860300DD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2460716-336B-49A2-BAA1-9F5860300DD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2460716-336B-49A2-BAA1-9F5860300DD4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
