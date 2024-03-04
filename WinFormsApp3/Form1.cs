@@ -29,10 +29,10 @@ namespace WinFormsApp3
 
                 Sor újSor = new Sor();
 
-                if (hatralek < 0) {  break; } else { újSor.KommunaltOsszeg += befizetes; }
-               
-            
-    
+                if (hatralek < 0) { break; } else { újSor.KommunaltOsszeg += befizetes; }
+
+
+
                 újSor.Hatralek = Math.Round(hatralek);
                 újSor.Honap = honap;
 
@@ -47,7 +47,12 @@ namespace WinFormsApp3
         {
             public int Honap { get; set; }
             public decimal Hatralek { get; set; }
-            public decimal KommunaltOsszeg { get; set; }    
+            public decimal KommunaltOsszeg { get; set; }
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

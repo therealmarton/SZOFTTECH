@@ -21,6 +21,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "gyakorlas_0302", "gyakorlas
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gyakorlas_HET1_kamatesfeladatok", "WinFormsApp3\gyakorlas_HET1_kamatesfeladatok.csproj", "{DE4C7561-DBDD-4C0B-8063-0FB0E7C1FB88}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gyakorlas_szorzotabla_gombbol", "gyakorlas_szorzotabla_gombbol\gyakorlas_szorzotabla_gombbol.csproj", "{7B9255E5-9913-4867-8688-DE2FABFED602}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{DE4C7561-DBDD-4C0B-8063-0FB0E7C1FB88}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DE4C7561-DBDD-4C0B-8063-0FB0E7C1FB88}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DE4C7561-DBDD-4C0B-8063-0FB0E7C1FB88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B9255E5-9913-4867-8688-DE2FABFED602}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B9255E5-9913-4867-8688-DE2FABFED602}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B9255E5-9913-4867-8688-DE2FABFED602}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B9255E5-9913-4867-8688-DE2FABFED602}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
