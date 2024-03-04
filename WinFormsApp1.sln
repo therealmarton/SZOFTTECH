@@ -17,7 +17,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3dikfeladat", "3dikfeladat\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "gyakorlas_3", "gyakorlas_3\gyakorlas_3.csproj", "{20876FA8-4C3C-463C-8A1E-756E4D6558BB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gyakorlas_0302", "gyakorlas_0302\gyakorlas_0302.csproj", "{A2460716-336B-49A2-BAA1-9F5860300DD4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "gyakorlas_0302", "gyakorlas_0302\gyakorlas_0302.csproj", "{A2460716-336B-49A2-BAA1-9F5860300DD4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gyakorlas_HET1_kamatesfeladatok", "WinFormsApp3\gyakorlas_HET1_kamatesfeladatok.csproj", "{DE4C7561-DBDD-4C0B-8063-0FB0E7C1FB88}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{A2460716-336B-49A2-BAA1-9F5860300DD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A2460716-336B-49A2-BAA1-9F5860300DD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A2460716-336B-49A2-BAA1-9F5860300DD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE4C7561-DBDD-4C0B-8063-0FB0E7C1FB88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE4C7561-DBDD-4C0B-8063-0FB0E7C1FB88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE4C7561-DBDD-4C0B-8063-0FB0E7C1FB88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE4C7561-DBDD-4C0B-8063-0FB0E7C1FB88}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
