@@ -19,9 +19,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "gyakorlas_3", "gyakorlas_3\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "gyakorlas_0302", "gyakorlas_0302\gyakorlas_0302.csproj", "{A2460716-336B-49A2-BAA1-9F5860300DD4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gyakorlas_HET1_kamatesfeladatok", "WinFormsApp3\gyakorlas_HET1_kamatesfeladatok.csproj", "{DE4C7561-DBDD-4C0B-8063-0FB0E7C1FB88}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "gyakorlas_HET1_kamatesfeladatok", "WinFormsApp3\gyakorlas_HET1_kamatesfeladatok.csproj", "{DE4C7561-DBDD-4C0B-8063-0FB0E7C1FB88}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gyakorlas_szorzotabla_gombbol", "gyakorlas_szorzotabla_gombbol\gyakorlas_szorzotabla_gombbol.csproj", "{7B9255E5-9913-4867-8688-DE2FABFED602}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "gyakorlas_szorzotabla_gombbol", "gyakorlas_szorzotabla_gombbol\gyakorlas_szorzotabla_gombbol.csproj", "{7B9255E5-9913-4867-8688-DE2FABFED602}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zh_eloadas_gyak", "zh_eloadas_gyak\zh_eloadas_gyak.csproj", "{2E239175-7579-430B-AF35-B5EA39DB68D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zh_eloadas_gyak2", "zh_eloadas_gyak2\zh_eloadas_gyak2.csproj", "{58DDBFCB-B496-4033-BF3A-053A72815526}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +73,14 @@ Global
 		{7B9255E5-9913-4867-8688-DE2FABFED602}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7B9255E5-9913-4867-8688-DE2FABFED602}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7B9255E5-9913-4867-8688-DE2FABFED602}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E239175-7579-430B-AF35-B5EA39DB68D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E239175-7579-430B-AF35-B5EA39DB68D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E239175-7579-430B-AF35-B5EA39DB68D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E239175-7579-430B-AF35-B5EA39DB68D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58DDBFCB-B496-4033-BF3A-053A72815526}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58DDBFCB-B496-4033-BF3A-053A72815526}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58DDBFCB-B496-4033-BF3A-053A72815526}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58DDBFCB-B496-4033-BF3A-053A72815526}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
