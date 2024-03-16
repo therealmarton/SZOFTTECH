@@ -23,9 +23,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "gyakorlas_HET1_kamatesfelad
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "gyakorlas_szorzotabla_gombbol", "gyakorlas_szorzotabla_gombbol\gyakorlas_szorzotabla_gombbol.csproj", "{7B9255E5-9913-4867-8688-DE2FABFED602}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zh_eloadas_gyak", "zh_eloadas_gyak\zh_eloadas_gyak.csproj", "{2E239175-7579-430B-AF35-B5EA39DB68D2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "zh_eloadas_gyak", "zh_eloadas_gyak\zh_eloadas_gyak.csproj", "{2E239175-7579-430B-AF35-B5EA39DB68D2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zh_eloadas_gyak2", "zh_eloadas_gyak2\zh_eloadas_gyak2.csproj", "{58DDBFCB-B496-4033-BF3A-053A72815526}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "zh_eloadas_gyak2", "zh_eloadas_gyak2\zh_eloadas_gyak2.csproj", "{58DDBFCB-B496-4033-BF3A-053A72815526}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5_het_eloadas", "5_het_eloadas\5_het_eloadas.csproj", "{989DDC24-0652-4ADA-9B60-AF4B83F4E080}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +83,10 @@ Global
 		{58DDBFCB-B496-4033-BF3A-053A72815526}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{58DDBFCB-B496-4033-BF3A-053A72815526}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{58DDBFCB-B496-4033-BF3A-053A72815526}.Release|Any CPU.Build.0 = Release|Any CPU
+		{989DDC24-0652-4ADA-9B60-AF4B83F4E080}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{989DDC24-0652-4ADA-9B60-AF4B83F4E080}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{989DDC24-0652-4ADA-9B60-AF4B83F4E080}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{989DDC24-0652-4ADA-9B60-AF4B83F4E080}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
