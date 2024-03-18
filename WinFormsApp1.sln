@@ -29,7 +29,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "zh_eloadas_gyak2", "zh_eloa
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "5_het_eloadas", "5_het_eloadas\5_het_eloadas.csproj", "{989DDC24-0652-4ADA-9B60-AF4B83F4E080}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5_het_gyakorlat", "5_het_gyakorlat\5_het_gyakorlat.csproj", "{F092D32C-582A-4A59-BAE4-5275CC5E23B6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "5_het_gyakorlat", "5_het_gyakorlat\5_het_gyakorlat.csproj", "{F092D32C-582A-4A59-BAE4-5275CC5E23B6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
