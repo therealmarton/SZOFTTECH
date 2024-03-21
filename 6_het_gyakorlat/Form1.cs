@@ -48,40 +48,61 @@ namespace _6_het_gyakorlat
 
         private void Form1_Load(object sender, EventArgs e)
         {
+        
+
+          
 
         }
+        List<KigyoElem> kigyo = new List<KigyoElem>();
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-           
-
-            
-            fej_x += irany_x * KigyoElem.Meret;
-            fej_y += irany_y * KigyoElem.Meret;
-            foreach (KigyoElem item in Controls)
-            {
-                if (item.Top == fej_y && item.Left == fej_x) 
-                { 
-                    Application.Exit();
-                }
-            }
-
-            KigyoElem ujFej = new KigyoElem();
-
-            ujFej.Top = fej_y;
-            ujFej.Left = fej_x;
-            Controls.Add(ujFej);
-
-
-            if (Controls.Count > hossz)
-            {
-                Controls.RemoveAt(0);
-            }
-
             lepesszam++;
 
 
-         
+            fej_x += irany_x * KigyoElem.Meret;
+            fej_y += irany_y * KigyoElem.Meret;
+
+            foreach (object item in Controls)
+            {
+                if (item is KigyoElem)
+                {
+                    KigyoElem k = (KigyoElem)item;
+
+                    if (k.Top == fej_y && k.Left == fej_x)
+                    {
+                        timer1.Enabled = false;
+                        return;
+                    }
+                }
+            }
+            
+
+            KigyoElem ke = new KigyoElem();
+            ke.Top = fej_y;
+            ke.Left = fej_x;
+            kigyo.Add(ke); 
+            Controls.Add(ke); 
+
+
+            if (kigyo.Count > hossz)
+            {
+                KigyoElem levagando = kigyo[0];
+                kigyo.RemoveAt(0);
+                Controls.Remove(levagando);
+            }
+           
+
+
+
+
+
+
+            if (lepesszam % 2 == 0) ke.BackColor = Color.Yellow;
+
+
+
+
 
 
 
