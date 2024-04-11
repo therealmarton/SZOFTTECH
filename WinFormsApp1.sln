@@ -31,7 +31,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "5_het_eloadas", "5_het_eloa
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "5_het_gyakorlat", "5_het_gyakorlat\5_het_gyakorlat.csproj", "{F092D32C-582A-4A59-BAE4-5275CC5E23B6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6_het_gyakorlat", "6_het_gyakorlat\6_het_gyakorlat.csproj", "{DB9D14C0-F30D-4F18-BB09-032004F1DD00}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "6_het_gyakorlat", "6_het_gyakorlat\6_het_gyakorlat.csproj", "{DB9D14C0-F30D-4F18-BB09-032004F1DD00}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsApp4", "WinFormsApp4\WinFormsApp4.csproj", "{04DC4244-D37B-4BEA-92C3-3B083D8FB6E2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -99,6 +101,10 @@ Global
 		{DB9D14C0-F30D-4F18-BB09-032004F1DD00}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DB9D14C0-F30D-4F18-BB09-032004F1DD00}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DB9D14C0-F30D-4F18-BB09-032004F1DD00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04DC4244-D37B-4BEA-92C3-3B083D8FB6E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04DC4244-D37B-4BEA-92C3-3B083D8FB6E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04DC4244-D37B-4BEA-92C3-3B083D8FB6E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04DC4244-D37B-4BEA-92C3-3B083D8FB6E2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
