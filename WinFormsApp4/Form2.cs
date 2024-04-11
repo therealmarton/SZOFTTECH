@@ -29,12 +29,7 @@ namespace WinFormsApp4
 
         private void button1_Click(object sender, EventArgs e)
         {
-            using (var writer = new StreamWriter("countries.csv"))
-            using (var csv = new CsvWriter(writer, CultureInfo.InvariantCulture))
-            {
-              
-                csv.WriteRecords(countrylist);
-            };
+            DialogResult = DialogResult.OK;
         }
     }
 }

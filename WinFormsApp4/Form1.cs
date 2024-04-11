@@ -37,7 +37,7 @@ namespace WinFormsApp4
         {
             Form2 fce = new Form2();
             fce.CountryData = countryDataBindingSource.Current as CountryData;
-            fce.Show();
+            fce.ShowDialog();
         }
     }
 }
