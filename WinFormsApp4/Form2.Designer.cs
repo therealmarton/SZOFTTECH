@@ -30,33 +30,31 @@
         {
             components = new System.ComponentModel.Container();
             textBox1 = new TextBox();
-            countryDataBindingSource = new BindingSource(components);
+            bindingSource1 = new BindingSource(components);
             textBox2 = new TextBox();
             textBox3 = new TextBox();
             label1 = new Label();
             label2 = new Label();
             label3 = new Label();
-            bindingSource1 = new BindingSource(components);
             button1 = new Button();
-            ((System.ComponentModel.ISupportInitialize)countryDataBindingSource).BeginInit();
             ((System.ComponentModel.ISupportInitialize)bindingSource1).BeginInit();
             SuspendLayout();
             // 
             // textBox1
             // 
-            textBox1.DataBindings.Add(new Binding("Text", countryDataBindingSource, "Name", true));
+            textBox1.DataBindings.Add(new Binding("Text", bindingSource1, "Name", true));
             textBox1.Location = new Point(42, 100);
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(257, 23);
             textBox1.TabIndex = 0;
             // 
-            // countryDataBindingSource
+            // bindingSource1
             // 
-            countryDataBindingSource.DataSource = typeof(CountryData);
+            bindingSource1.DataSource = typeof(CountryData);
             // 
             // textBox2
             // 
-            textBox2.DataBindings.Add(new Binding("Text", countryDataBindingSource, "Population", true));
+            textBox2.DataBindings.Add(new Binding("Text", bindingSource1, "Population", true));
             textBox2.Location = new Point(42, 184);
             textBox2.Name = "textBox2";
             textBox2.Size = new Size(257, 23);
@@ -64,7 +62,7 @@
             // 
             // textBox3
             // 
-            textBox3.DataBindings.Add(new Binding("Text", countryDataBindingSource, "AreaInSquareKm", true));
+            textBox3.DataBindings.Add(new Binding("Text", bindingSource1, "AreaInSquareKm", true));
             textBox3.Location = new Point(42, 278);
             textBox3.Name = "textBox3";
             textBox3.Size = new Size(257, 23);
@@ -99,7 +97,7 @@
             // 
             // button1
             // 
-            button1.Location = new Point(92, 388);
+            button1.Location = new Point(42, 383);
             button1.Name = "button1";
             button1.Size = new Size(138, 23);
             button1.TabIndex = 6;
@@ -122,7 +120,6 @@
             Name = "Form2";
             Text = "Form2";
             Load += Form2_Load;
-            ((System.ComponentModel.ISupportInitialize)countryDataBindingSource).EndInit();
             ((System.ComponentModel.ISupportInitialize)bindingSource1).EndInit();
             ResumeLayout(false);
             PerformLayout();
@@ -136,7 +133,6 @@
         private Label label1;
         private Label label2;
         private Label label3;
-        private BindingSource countryDataBindingSource;
         private BindingSource bindingSource1;
         private Button button1;
     }

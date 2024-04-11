@@ -19,13 +19,14 @@ namespace WinFormsApp4
 
         private void button1_Click(object sender, EventArgs e)
         {
-            StreamReader sr = new StreamReader("european.csv");
+            StreamReader sr = new StreamReader("countries.csv");
             var csv = new CsvReader(sr, CultureInfo.InvariantCulture);
             var tomb = csv.GetRecords<CountryData>();
             foreach (var item in tomb)
             {
                 countrylist.Add(item);
             }
+           
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -38,6 +39,16 @@ namespace WinFormsApp4
             Form2 fce = new Form2();
             fce.CountryData = countryDataBindingSource.Current as CountryData;
             fce.ShowDialog();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            using (var writer = new StreamWriter("countriess.csv"))
+            using (var csv = new CsvWriter(writer, CultureInfo.InvariantCulture))
+            {
+                
+                csv.WriteRecords(countrylist);
+            };
         }
     }
 }
